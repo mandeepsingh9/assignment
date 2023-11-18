@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; /* Adding transition for smooth color change */
+  }
+  
+  nav ul li a:hover {
+    color: #FF5733; /* Change color on hover */
+  }
+  
+  /* Adjust Content Below Sticky Header */
+  body {
+    padding-top: 60px; /* Adjust based on the header height */
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    height: 500px;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: white;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adding transition for smooth color change */
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: #FF5733; /* Inverting colors on hover */
+  }
+  
+  /* Features Section Styles */
+  #features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  /* Testimonials Section Styles */
+  #testimonials {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Form Styles */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adding transition for smooth color change */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: #FF5733; /* Inverting colors on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline; /* Adding underline on hover */
+  }
+  
